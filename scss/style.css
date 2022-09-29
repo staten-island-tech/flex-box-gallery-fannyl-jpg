@@ -11,12 +11,11 @@
   .parent {
     display: flex;
     font-size: 30px;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
   }
 
   .child {
-    width: 28%;
+    width: 20%;
   }
   
   .child-1 {

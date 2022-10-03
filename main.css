@@ -2,51 +2,57 @@
 html,
 body,
 * {
-  background-color: #edf2f4;
+  background-color: pink;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 40px;
   font-family: "Work Sans", sans-serif;
-
+}
 img {
-    background-image: url(img/tree.jpg);
-    height: 100vh;
-    max-width: 100%;
-    height: auto;  
+  background-image: url(img/tree.jpg);
+  height: 100vh;
+  max-width: 100%;
+  height: auto;
 }
-.about {
-    height: 100vh;
-}
-
-.about-row {
-    @include flex-row-center;
-    justify-content: space-between;
-    background-color: aliceblue;
-    height: 100%;
-    width: 80vw;
-    margin: 0;
-}
-.about-col {
-    background-color: antiquewhite;
-    height: 90%;
-    width: 25%;
-    @include flex-rol-center;
-    justify-content: space-evenly;
-}
-.about-img {
+.art {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 3rem;
+    background-color: lightcoral;
+    border: 5px solid red;
+  }
+  .col-tree {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+            background-color: yellow;
+  }
+  .col-girl {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .col-ocean {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .col-img {
     height: 25%;
-}
-.about-text {
+  }
+  .col-text {
     font-size: 3rem;
     text-align: center;
     padding: 2.3 rem;
-}
-.about-box {
+  }
+  .col-box {
     background-image: url(../img/tree.jpg);
     height: 30%;
     width: 80%;
     background-size: cover;
     background-position: center;
-}
-
+  }
+  

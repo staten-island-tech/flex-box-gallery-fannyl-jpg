@@ -3,35 +3,35 @@ body {
   margin: auto;
   padding: auto;
   box-sizing: border-box;
-  font-size: 40px;
+  font-size: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
   background-size: cover;
   text-align: center;
-  background-color: aliceblue;
+  background-color: #E9ECE5;
 }
 
 .art {
   display: flex;
-  font-size: 1rem;
+  font-size: 1.5rem;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: auto;
-  padding: 30px;
+  padding: 1rem;
 }
 .col {
   margin: auto;
-  padding: 30px 30px;
-  background: lightgoldenrodyellow;
-  box-shadow: 10px 10px 5px grey;
+  padding: 1rem 1rem;
+  background: #CECEBA;
+  box-shadow: 1rem 1rem .5rem grey;
   width: 27%;
 }
 
 #image {
-  padding: 10px auto;
+  padding: 1rem auto;
   margin: auto;
-  border-radius: 30px;
-  width: 914px;
-  height: 610px;
+  border-radius: 3rem;
+  width: 18rem;
+  height: 24rem;
   align-items: center;
   display: block;
   flex-wrap: wrap;

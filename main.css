@@ -1,12 +1,10 @@
-@import "_header";
 html,
 body {
   margin: auto;
   padding: auto;
   box-sizing: border-box;
   font-size: 40px;
-  font-family: "Work Sans", sans-serif;
-  /*   background-image: url(img/tree.jpg); */
+  font-family: 'Source Sans Pro', sans-serif;
   background-size: cover;
   text-align: center;
   background-color: aliceblue;
@@ -14,7 +12,7 @@ body {
 
 .art {
   display: flex;
-  font-size: 2rem;
+  font-size: 1rem;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: auto;
@@ -32,7 +30,10 @@ body {
   padding: 10px auto;
   margin: auto;
   border-radius: 30px;
-  width: 60%;
+  width: 914px;
+  height: 610px;
   align-items: center;
   display: block;
+  flex-wrap: wrap;
+  max-width: 100%;
 }

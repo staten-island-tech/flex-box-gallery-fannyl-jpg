@@ -38,3 +38,21 @@ body {
   flex-wrap: wrap;
   max-width: 100%;
 }
+
+@media (max-width: 800px) {
+  body {
+    color: blue;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1000px) {
+  .h1 {
+    color: green;
+  }
+}
+
+@media (orientation: potrait) {
+  .h2 {
+    color: cyan;
+  }
+}

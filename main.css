@@ -100,40 +100,6 @@ body {
 
 /*2nd Hover Effect*/
 a.ex2 {
-  text-decoration: none;
-  color: #080908;
-  font-weight: 700;
-  position: relative;
-}
-
-a.ex2::before {
-  content: '';
-  background-color: #fff;
-  position: absolute;
-  left: 0;
-  bottom: 3px;
-  width: 100%;
-  height: 8px;
-  z-index: -1;
-  transition: all .3s ease-in-out;
-}
-
-a.ex2:hover::before {
-  bottom: 0;
-  height: 100%;
-}
-
-/* Presentational Styles */
-body {
-  display: grid;
-  font-family: 'Poppins', sans-serif;
-  font-size: 27px;
-  line-height: 1.5;
-  height: 100vh;
-  place-items: center;
-}
-
-a.ex2 {
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -147,7 +113,7 @@ a.ex2::after {
   left: 0;
 }
 a.ex2::before {
-  background-color: #fff;
+  background-color: grey;
   height: 2px;
   bottom: 0;
   transform-origin: 100% 50%;
@@ -161,10 +127,10 @@ a.ex2::after {
   transform-origin: 100% 50%;
   transform: translate3d(200%, 0, 0);
   transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
-  color: #fff;
+  color: grey;
 }
 
-a.ex2a:hover::before {
+a.ex2:hover::before {
   transform-origin: 0% 50%;
   transform: scaleX(1);
 }
@@ -181,7 +147,7 @@ a.ex2:hover span {
   transform: translate3d(-200%, 0, 0);
 }
 
-Presentational Styles
+/* Presentational Styles */
 body {
   display: grid;
   font-family: 'Poppins', sans-serif;

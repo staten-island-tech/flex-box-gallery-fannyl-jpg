@@ -202,8 +202,8 @@ a.ex2 {
 a.ex3 {
   background-image: linear-gradient(
     to right,
-    #fff,
-    #fff 50%,
+    grey,
+    grey 50%,
     #080908 50%
   );
   background-size: 200% 100%;
@@ -218,7 +218,7 @@ a.ex3 {
 
 a.ex3:before{
   content: '';
-  background: #fff;
+  background: grey;
   display: block;
   position: absolute;
   bottom: -3px;

@@ -25,7 +25,7 @@ body {
   padding: 5px 5px;
   background: #D4D5D3;
   box-shadow: 10px 10px 5px #555756;
-  width: 30%;
+  width: 20%;
   font-size: .5rem;
 }
 
@@ -33,28 +33,19 @@ body {
   padding: 10px auto;
   margin: auto;
   border-radius: 30px;
-  width: 457px;
-  height: 609px;
+  width: 914px;
+  height: 610px;
   align-items: center;
   display: block;
   flex-wrap: wrap;
   max-width: 100%;
 }
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
 
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .col {
+    width: 100%;
+  }
 }
 
 /* Landscape */
